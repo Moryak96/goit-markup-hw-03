@@ -109,6 +109,14 @@ align-items: center;
 }
 
 .contacts {
+font-style: normal;
+display: flex;
+justify-content: space-between;
+margin-top: 24px;
+margin-bottom: 24px;
+}
+
+.list-contacts {
 list-style-type: none;
 font-style: normal;
 font-size: 16px;
@@ -117,10 +125,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 padding: 24px 0;
 color: #434455;
-}
-
-.list-contacts {
-    
 }
 
 
