@@ -58,7 +58,7 @@ justify-content: space-between;
 padding: 0 15px;
 }
 
-/* Styles */
+/* 1 Header (Styles) */
 
 .top-nav {
 display: flex;
@@ -127,8 +127,7 @@ padding: 24px 0;
 color: #434455;
 }
 
-
-/* Main Header */
+/* 2 Header */
 
 .top-header {
 padding-top: 24px;
@@ -157,14 +156,6 @@ text-decoration: none;
 .header-list:hover,
 .header-list:focus {
 color: #404bbf;
-}
-
-.contacts {
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-text-decoration: none;
 }
 
 .contacts:hover,
