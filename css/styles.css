@@ -233,6 +233,7 @@ img {
 
 .sction-three .section-three-title {
     margin: 0 auto 72px auto;
+    margin-bottom: 72px;
     text-align: center;
     color: #2E2F42;
     font-size: 36px;
@@ -338,14 +339,43 @@ img {
 
 .footer {
     background-color: #2e2f42;
+    padding: 100px 0;
+}
+
+.footer .logo-web {
+    font-family: "Raleway", sans-serif;
+    color: #4D5AE5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.footer .span-studio {
+    color: #F4F4FD;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.footer .footer-p {
+    color: #F4F4FD;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    max-width: 264px
 }
 
 .footer-p {
     line-height: 1.5;
     color: #f4f4fd;
     letter-spacing: 0.02em;
-}
-
-.span-studio {
-    color: #f4f4fd;
 }
