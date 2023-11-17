@@ -274,21 +274,56 @@ img {
 
 /* Section 4 */
 
-.section-four-title {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
+.section-portfolio-title {
+    padding: 120px 0;
 }
 
-.section-four-list-item {
-    font-weight: 500;
+.section-portfolio-title .section-four-title {
+    margin-bottom: 72px;
+    text-align: center;
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.section-portfolio-title .section-four-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.section-four-portfolio .section-four-items {
+    width: calc((100% - 48px) / 3);
+}
+
+.section-four-portfolio .applications {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.applications .section-four-list-item {
+    margin-bottom: 8px;
+}
+
+.section-four-items .section-four-list-item {
+    color: #2E2F42;
     font-size: 20px;
+    font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+}
+
+.section-four-items .section-four-p {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .section-four-p {
