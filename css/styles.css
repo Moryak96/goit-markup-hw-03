@@ -227,28 +227,43 @@ img {
 /* Section 3 */
 
 .section-three {
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
-.section-three-title {
-    font-size: 36px;
-    line-height: 1.11;
+.sction-three .section-three-title {
+    margin: 0 auto 72px auto;
     text-align: center;
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42
 }
 
-.section-three-list {
-    background-color: #FFFFFF
+.section-three .our-team-title {
+    display: flex;
+    gap: 24px;
 }
 
-.section-three-list-item {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42
+.our-team-title .section-three-list {
+    background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-title .name-profession {
+    padding: 32px 0;;
+}
+
+.name-profession .section-three-list-item {
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.name-profession .section-three-p {
+    text-align: center;
 }
 
 .section-three-p {
