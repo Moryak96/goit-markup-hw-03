@@ -231,8 +231,8 @@ img {
     padding: 120px 0;
 }
 
-.sction-three .section-three-title {
-    margin-bottom: 72px;
+.section-three .section-three-title {
+    margin: 0 72px auto;
     text-align: center;
     color: #2E2F42;
     font-size: 36px;
