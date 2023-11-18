@@ -43,6 +43,7 @@ img {
 }
 
 .container {
+    margin: 0 auto;
     max-width: 1158px;
     margin: 0;
     padding: 0 15px;
@@ -328,7 +329,6 @@ img {
 
 .section-four-p {
     font-size: 16px;
-    margin-bottom: 72px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
